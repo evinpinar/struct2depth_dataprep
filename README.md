@@ -19,13 +19,13 @@ I provide samples in this repo.
 
 **Run model:**
 You can run training/inference of the model either with masks or without. Get the [KITTI pretrained model](https://drive.google.com/file/d/1mjb4ioDRH8ViGbui52stSUDwhkGrDXy8/view?usp=sharing).
-- For training, there is an extra image processing (see gen_data_kitti). It resizes frames to 416x128 and combines in triplets. Do it both for depth and RGB images.
+- For training, there is an extra image processing step (see gen_data_kitti). It resizes frames to 416x128 and combines in triplets. Do it both for depth and RGB images.
 - For inference, you can either feed images one by one, or in triplet format. 
 - When running the code, set "--size_constraint_weight 0" which turns the weak-prior estimation off, because apparently there are some issues on that part and result in zero division errors.
 
 
-**Credits**
-I got some help from these repo's:
+**Credits**  
+I got some help from these repos:
 - https://github.com/ferdyandannes/struct2depth_train 
 - https://github.com/amanrajdce/struct2depth_pub
 
