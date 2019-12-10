@@ -4,6 +4,8 @@ I provide the code to prepare data for [struct2depth](https://github.com/tensorf
 
 ![](melbourne_estimation.mov)
 
+![](output_nomask.mov)
+
 First, make sure your tensorflow version is <=1.14. I encountered some problems while running their model with later versions.
 
 **Data:**
