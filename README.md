@@ -2,6 +2,8 @@
 
 I provide the code to prepare data for [struct2depth](https://github.com/tensorflow/models/tree/master/research/struct2depth) model introduced by the paper *Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos, V. Casser, S. Pirk, R. Mahjourian, A. Angelova, AAAI Conference on Artificial Intelligence, 2019.* 
 
+![](melbourne_estimation.mov)
+
 First, make sure your tensorflow version is <=1.14. I encountered some problems while running their model with later versions.
 
 **Data:**
